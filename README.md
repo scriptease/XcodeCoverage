@@ -3,6 +3,8 @@ of your Xcode project.
 For a detailed blog post, see http://qualitycoding.org/xcode-code-coverage/  
 For additional steps needed to get code coverage in iOS 7, see http://qualitycoding.org/ios-7-code-coverage/
 
+*Fixes error because lcov tries to call -v on the llvm-wrapper, i added a wrapper for the wrapper ;-)*
+
 
 Installation
 ============
